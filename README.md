@@ -1,8 +1,10 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Counter Component
 
-Currently, two official plugins are available:
+-This Counter component is a simple React application that allows users to select and count different food items from a menu. Each item can be incremented or -decremented, and the total cost is calculated based on the selected quantities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+
+-Increment and Decrement: Adjust the quantity of each food item using "+" and "-" buttons.
+-Total Cost Calculation: Displays the total cost of the selected items based on predefined prices.
+-Reset: Resets all item quantities to zero.
