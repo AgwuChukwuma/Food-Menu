@@ -10,8 +10,6 @@ function Counter(){
         spaghetti: 0
     });
     
-  
-
     const increment = (item) => {
         setCount(prevCounts => ({
             ...prevCounts,
@@ -45,7 +43,6 @@ function Counter(){
             count.spaghetti * 300
         );
     };
-
 
     return(
         <div className="counter-container">
